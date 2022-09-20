@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>Brandon's Portfolio</title>
+    <title>Document</title>
+</head>
+<body>
+    <header class ="header">
+        <nav class = "navBar">
+            <img src="mylogo.png" class="bnlogo">
+            <ul>
+                <li><a href="#aboutMe" class="nav-items">1. About Me</a></li>
+                <li><a href="#proj" class="nav-items">2. My Projects</a></li>
+                <li><a href="#section--3" class="nav-items">3. Contact Me</a></li>
+                <a href="Nguyen_Brandon_Official_Resume.pdf" target="_blank" class = "resume">Resume</a>
+            </ul>   
+        </nav>
+        <div class="introPage">
+            <!-- This is the introduction page of the first page of the website-->
+            <div class="infoContents">
+                <h2>
+                    Hello, my name is
+                </h2>
+                <h1 class = "highlight" >Brandon Nguyen.</h1>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+                <h1 class = "mycontents">I like to 
+                    <span class = "highlightTwo">
+                        create, design, and build</span>things for the web.
+                </h1>
+                <button class="btn--text btn--scroll-to">Learn more about me! &DownArrow;</button>
+            </div>
+            <!-- This is the selfie image is at of the front page-->
+            <section>
+                <div class ="box">
+                    <div class="icon-image">
+                        <div id="blue">
+                        </div>
+                        <div id="green">
+                        </div>
+                    </div>
+                    <div id="red">
+                        <img src="selfie.jpeg" onmouseover="shift()" onmouseout="shiftBack()">
+                    </div>
+                </div>
+            </section>
+            <!-- Social Side Bars-->
+            <div class="vertical">
+                <ul id="social-sidebar">
+                    <li>
+                    <a class="entypo-linkedin" href="https://www.linkedin.com/in/bran-nguyen/"><span>LinkedIn</span></a>
+                    </li>
+                    <li>
+                    <a class="entypo-gplus" href="mailto: bran.nguyen1118@gmail.com"><span>Gmail</span></a>
+                    </li>
+                    <li>
+                    <a class="entypo-github" href="https://github.com/nguyenbrandon101"><span>Github</span></a>
+                    </li>
+                    <li>
+                        <a class="entypo-insta" href="https://www.instagram.com/brvndon_nguyen/"><span>IG</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="section" id = "section--1">
+        <div id="aboutMe">
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+            <div class ="descp">
+                <h1 class = "idone"> <span class="headers">1. About Me </span></h1>
+                <p>
+                    Hi! My name is Brandon Nguyen and I'm a recent graduate from UC Berkeley with a degree in Economics and Data Science. Having a particular interest with data and telling stories with it, I soon discovered the power that software engineers have and how it allows the developer to have endless possiblities to explore their creativity.
+        
+                <br>
+            
+                <br>
+
+                    As an software engineer, my mission is to create a digital experience that users will love to use while also unlocking and learning new skills and tools to help further perfect my craft! If you would like to contact me, please feel free to reach out to me via <a href="mailto: bran.nguyen1118@gmail.com" class = "links">Email.</a>
+                </p>
+                <div class="aboutImg">
+                    <div id="boxTwo">
+                    </div>
+                    <div>
+                        <img src="selife2.jpg" id="selfieTwo" onmouseover="shiftTwo()" onmouseout="shiftBackTwo()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                                <!-- Projects-->
+    <section class="section" id="section--2">
+      <div class="flexr"></div>
+        <div class="section__title section__title--testimonials">
+          <h2 class="section__description" id = "proj" >2. My Projects</h2>
+        </div>
+        <div class="slider">
+          <div class="slide">
+            <div class="testimonial">
+                <img src="dinogamepic.gif">
+              <h5><a href="https://github.com/nguyenbrandon101/dino-game-master">Google Dino-Clone Game</a></h5>
+              <blockquote class="testimonial__text">
+                A clone of the infamous Google Dino-Game. This game has functions such as jump and run in which the player will need to use in order to jump over the cactus objects. If they fail to do so, a defeated screen will appear in which the player will have the option to play the game again with any button.
+                <br>
+                <br>
+                <span>Tech:</span>HTML,CSS,JavaScript
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+                <img src="todopic.png">
+              <h5 class="todo"><a href="https://github.com/nguyenbrandon101/Todo-List-Extension-progressbar-master">Todo List Extensions</a></h5>
+              <blockquote class="testimonial__text">
+                A todo list google extensions in which allows the user to create a todo list for the day. This todo list extension includes a cross-out feature, edit button, delete button, new day button, and a progress bar in which will be updated everytime the user completes their todo list task. Utilizing the local storage, the extension is able to keep the memory of all the task that the user has input in evem after refreshing/closing the extension.
+                <br>
+                <br>
+                <span>Tech:</span>HTML,CSS,JavaScript
+              </blockquote>
+            </div>
+          </div>
+  
+          <div class="slide">
+            <div class="testimonial">
+                <img src="gitlet image.png">
+              <h5 class="gitlet"><a href="https://github.com/nguyenbrandon101/gitlet/tree/main/proj2">Gitlet</a></h5>
+              <blockquote class="testimonial__text">
+                A simple version control system that mimics the important features of Github. Some examples of the important commands that was implemented was checkout, commit, add, init, log, and etc. Also to keep and organize the correct versions of files within gitlet, I was able to serialize each file and store them in data structures such as linked lists, trees, and hash maps to log back to the versions that the users wanted.
+                <br>
+                <br>
+                <span>Tech:</span>Java, Python
+              </blockquote>
+            </div>
+          </div>
+  
+          <button class="slider__btn slider__btn--left">&larr;</button>
+          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <div class="dots"></div>
+        </div>
+      </div>
+      </section>
+      <section class="section" id="section--3">
+          <div class="container">
+            <form action="https://formsubmit.co/bran.nguyen1118@gmail.com" method="POST">
+              <h3>Lets Get In Touch!</h3>
+              <input type="hidden" name="_captcha" value="false">
+              <label id="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <label id="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <label id="message">Message:</label>
+              <textarea type="text"id="message" name = "message"required rows="10">
+              </textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+      </section>
+    <script src="script.js"></script>
+</body>
+</html>
